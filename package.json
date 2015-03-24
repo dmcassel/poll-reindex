@@ -1,0 +1,15 @@
+{
+  "name": "poll-reindex",
+  "version": "1.0.0",
+  "description": "Polls the MarkLogic Management API until reindex-count.value is zero",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dave Cassel <dmcassel@gmail.com> (http://davidcassel.net/)",
+  "license": "Apache 2",
+  "dependencies": {
+    "request": "^2.53.0",
+    "yargs": "^3.6.0"
+  }
+}
